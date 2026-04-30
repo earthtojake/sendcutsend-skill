@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/sendcutsend-skill-demo.gif" alt="Demo of the SendCutSend skill producing a preflight report from a CAD upload file" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sendcutsend-logo-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/sendcutsend-logo.svg">
+  <img src="assets/sendcutsend-logo.svg" alt="SendCutSend logo" width="360">
+</picture>
 
 <br>
 
@@ -11,6 +15,14 @@
 SendCutSend preflight review for DXF and STEP/STP files.
 
 The SendCutSend skill reviews exact upload files against current SendCutSend ordering, catalog, and engineering-spec sources. It is built for conservative manufacturing-readiness reports: direct file inspection, cited source fields, explicit order-context assumptions, and clear pass/warning/fail/need-more-info findings.
+
+## Demo
+
+<div align="center">
+
+<img src="assets/sendcutsend-skill-demo.gif" alt="Demo of the SendCutSend skill producing a preflight report from a CAD upload file" width="100%">
+
+</div>
 
 ## What It Can Do
 
